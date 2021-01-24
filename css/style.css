@@ -304,10 +304,8 @@ footer {
 
 /* extra spacing */
 .spacing{
-  height: 10vh;
+  height: 1vh;
 }
-
-
 
 
 /* chat bot button */
@@ -422,3 +420,10 @@ footer {
    border-color: transparent  #AAAAFF;
    border-style: solid;
  }
+
+ canvas { 
+   margin: 0 auto; 
+   display: block;
+   margin-top: 110px;
+   width: 100%;
+}
