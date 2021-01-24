@@ -334,8 +334,8 @@ footer {
 
     /* Button used to open the chat form - fixed at the bottom of the page */
 .open-button {
-  background-color: #EDAA00;
-  color: white;
+  background-color: #FAFF7F;
+  color: #1B264F;
   padding: 16px 20px;
   border: 1px solid white;
   cursor: pointer;
@@ -391,8 +391,8 @@ footer {
 
 /* Set a style for the submit/send button */
 .form-container .botbtn {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #FFB9DE;
+  color: #1B264F;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
@@ -403,7 +403,7 @@ footer {
 
 /* Add a red background color to the cancel button */
 .form-container .cancel {
-  background-color: #EDAA00;
+  background-color: #FAFF7F;
 }
 
 /* Add some hover effects to buttons */

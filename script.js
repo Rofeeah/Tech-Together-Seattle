@@ -44,8 +44,11 @@ function chatResponse(){
   "Rachel Carson was a marine biologist and environmentalist — whose groundbreaking book, Silent Spring, has been credited as the catalyst for the modern environmental movement.",
   "Despite growing up as a self-described outcast, Maria Klawe pursed her passion for technology and became a prominent computer scientist. ",
   "Barbara McClintock was an American geneticist and is still considered to be one of the world’s most prestigious cytogeneticists. ",
-  "The Mercury 13, also sometimes known as the “Members of the First Lady Astronaut Trainees” (FLATs), were a group of women who participated in training to become astronauts for the country's first human spaceflight program in the early 1960s.",
-  "As part of a secret World War Two project, six young women programmed the first all-electronic programmable computer. "]
+  "Dorothy Lavinia Brown was the first African American female surgeon. She practiced in the Southeastern U.S. during the 1900s.",
+  "Rebecca Lee Crumpler was the first African American woman to become a physician. She graduated from the New England Female Medical College as a Doctor of Medicine in 1864.",
+  "Mary Jackson was NASA’s first African American female engineer. She became an aeronautical engineer in 1958. She devoted her career as an engineer to creating reports and helping other women get STEM positions at NASA.",
+  "Dr. Shirley Jackson was the second African American woman to graduate with a PhD in physics in the U.S., and the first African American woman to graduate with a PhD from the Massachusetts Institute of Technology (MIT). She received the National Medal of Science in 2015 during the presidency of Barack Obama.",
+  "Dr. Gladys West was responsible for the mathematics that brought about the invention of the Global Positioning System (GPS). Her important work at the U.S. Naval Weapons Laboratory helped with outer space discoveries related to planets in the solar system as well as Earth. She programmed the mathematics and calculations for the complex computer that eventually became known as a GPS."]
   
   
   // for (var i=0; i<factList.length-1; i++){
@@ -53,7 +56,7 @@ function chatResponse(){
 
   // }
 
-  num = Math.ceil(Math.random()*12)
+  num = Math.ceil(Math.random()*13)
   alert(factList[num]);
   
   
