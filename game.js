@@ -139,25 +139,25 @@ function moveSprite() {
   if (keyIsDown(65)) {
     imageSpriteGirl.changeAnimation("walkleft");
     imageSpriteGirl.position.x--;
-    imageSpriteGirl.velocity.x = -.6;
+    imageSpriteGirl.velocity.x = -1;
     imageSpriteGirl.velocity.y = 0;
   }
   if (keyIsDown(68)) {
     imageSpriteGirl.changeAnimation("walkright");
     imageSpriteGirl.position.x++;
     imageSpriteGirl.velocity.y = 0;
-    imageSpriteGirl.velocity.x = .6;
+    imageSpriteGirl.velocity.x = 1;
   }
   if (keyIsDown(87)) {
     imageSpriteGirl.changeAnimation("walkup");
     imageSpriteGirl.position.y--;
-    imageSpriteGirl.velocity.y = -.6;
+    imageSpriteGirl.velocity.y = -1;
     imageSpriteGirl.velocity.x = 0;
   }
   if (keyIsDown(83)) {
     imageSpriteGirl.changeAnimation("walkdown");
     imageSpriteGirl.position.y++;
-    imageSpriteGirl.velocity.y = .6;
+    imageSpriteGirl.velocity.y = 1;
     imageSpriteGirl.velocity.x = 0;
   }
   if (!keyIsPressed) {
@@ -288,7 +288,12 @@ function gameOver() {
     textSize(30);
     fill(0);
     textFont(myFont);
-    text(`GAME OVER. Congrats, you win!`, 320, 320);
+    text(`GAME OVER. Congrats, you win!`, 250, 320);
+  } else if (counter1==1 && counter2 ==1 && counter3 == 1 && counter4 == 1 && counter5 ==1) {
+    textSize(30);
+    fill(0);
+    textFont(myFont);
+    text(`GAME OVER. You lost - stay safe!`, 250, 320);
   }
 }
 
@@ -296,5 +301,5 @@ function displayText() {
   textSize(20);
   fill(0);
   textFont(myFont);
-  text(`COVID OUTSIDE, MUST STAY INDOORS.`, 460, 34);
+  text(`COVID OUTSIDE, MUST STAY INDOORS.`, 360, 34);
 }
